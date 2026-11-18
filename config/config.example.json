@@ -1,0 +1,31 @@
+{
+  "_comment": "NovaAgent - Configuración de ejemplo",
+  "model": {
+    "backend": "llama_cpp",
+    "path": null,
+    "context_size": 4096,
+    "gpu_layers": -1
+  },
+  "generation": {
+    "temperature": 0.7,
+    "max_tokens": 512,
+    "top_p": 0.9
+  },
+  "ui": {
+    "theme": "dark",
+    "language": "es",
+    "window_width": 1200,
+    "window_height": 800
+  },
+  "paths": {
+    "models_dir": null
+  },
+  "safety": {
+    "require_confirmation_for_destructive": true,
+    "max_file_size_mb": 100
+  },
+  "network": {
+    "allow_web_search": true,
+    "allow_model_download": true
+  }
+}
